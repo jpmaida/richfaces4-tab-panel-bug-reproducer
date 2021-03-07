@@ -16,7 +16,7 @@ Bug happens when selecting multiples tabs !!!
 
 <img width="690" alt="Screen Shot 2021-03-07 at 17 10 22" src="https://user-images.githubusercontent.com/7494680/110253247-07da3780-7f68-11eb-83af-a5111e886094.png">
 
-Bug don't happen when you open page B using an non-Ajax call.
+Bug don't happen when you open page B using a non-Ajax call.
 
 <img width="643" alt="Screen Shot 2021-03-07 at 17 11 48" src="https://user-images.githubusercontent.com/7494680/110253293-4a037900-7f68-11eb-8920-6f714962aa03.png">
 
