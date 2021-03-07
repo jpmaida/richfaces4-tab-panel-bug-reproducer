@@ -26,4 +26,18 @@ Bug don't happen when you open page B using an non-Ajax call.
 
 Two possible solutions for this case:
 1. Change all buttons/hyperlinks that use Ajax calls to open pages to components that use tradicional HTTP request.
-2. Change the context-param `org.richfaces.resourceOptimization.enabled` from `true` to `false`.
+2. Change the context-param `org.richfaces.resourceOptimization.enabled` from `true` to `false` in the `web.xml` file.
+
+## How to build and execute this reproducer ?
+
+Build
+`mvn clean package -DskipTests`
+
+Execute
+1. Start a JBoss EAP 7.x instance.
+2. Execute on a terminal `mvn wildfly:deploy` in the project root directory.
+
+## Where it was tested ?
+
+* JBoss EAP 7.2.8
+* JBoss EAP 7.0.0
