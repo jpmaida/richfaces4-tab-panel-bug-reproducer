@@ -32,12 +32,14 @@ Two possible solutions for this case:
 
 **Build**
 
+On a terminal execute:
 `mvn clean package -DskipTests`
 
 **Execute**
 
 1. Start a JBoss EAP 7.x instance.
-2. Execute on a terminal `mvn wildfly:deploy` in the project root directory.
+2. Locate the project root directory.
+3. Execute on a terminal: `mvn wildfly:deploy`.
 
 ## Where it was tested ?
 
