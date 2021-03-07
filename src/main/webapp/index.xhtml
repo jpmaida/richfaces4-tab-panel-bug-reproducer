@@ -17,7 +17,8 @@
 <h:body>
     <h:form>
         <div>Hello !! I'm a reproducer.</div>
-        <a4j:commandButton action="#{fooMB.foo()}" title="Open page via Ajax" value="Open page via Ajax" />
+        <a4j:commandButton action="#{fooMB.foo()}" title="Open page via Ajax" value="Open page via Ajax" style="margin-right: 10px;"/>
+        <h:commandButton action="#{fooMB.foo()}" title="Open page via non-Ajax" value="Open page via non-Ajax" />
     </h:form>
     <ui:insert name="content"></ui:insert>
 </h:body>
