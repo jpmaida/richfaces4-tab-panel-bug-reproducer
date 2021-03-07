@@ -31,9 +31,11 @@ Two possible solutions for this case:
 ## How to build and execute this reproducer ?
 
 **Build**
+
 `mvn clean package -DskipTests`
 
 **Execute**
+
 1. Start a JBoss EAP 7.x instance.
 2. Execute on a terminal `mvn wildfly:deploy` in the project root directory.
 
