@@ -22,7 +22,7 @@ Bug don't happen when you open page B using an non-Ajax call.
 
 <img width="714" alt="Screen Shot 2021-03-07 at 17 12 44" src="https://user-images.githubusercontent.com/7494680/110253326-80d98f00-7f68-11eb-9921-604f7dfd5d1e.png">
 
-## Possible solution
+## Possible solutions
 
 Two possible solutions for this case:
 1. Change all buttons/hyperlinks that use Ajax calls to open pages to components that use tradicional HTTP request.
