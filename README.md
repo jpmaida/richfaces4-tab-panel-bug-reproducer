@@ -44,5 +44,6 @@ On a terminal execute:
 
 ## Where it was tested ?
 
-* JBoss EAP 7.2.8
 * JBoss EAP 7.1.0
+* JBoss EAP 7.2.8
+* JBoss EAP 7.3
