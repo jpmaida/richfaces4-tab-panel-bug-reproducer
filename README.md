@@ -37,11 +37,12 @@ On a terminal execute:
 
 **Execute**
 
-1. Start a JBoss EAP 7.x instance.
-2. Locate the project root directory.
-3. Execute on a terminal: `mvn wildfly:deploy`.
+1. Start a JBoss EAP 7.x instance;
+2. Locate the project root directory;
+3. Execute on a terminal: `mvn wildfly:deploy`;
+4. Access on a browser: `http://localhost:8080/richfaces4-tabpanel-bug/`;
 
 ## Where it was tested ?
 
 * JBoss EAP 7.2.8
-* JBoss EAP 7.0.0
+* JBoss EAP 7.1.0
